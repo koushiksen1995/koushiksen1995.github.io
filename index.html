@@ -23,9 +23,7 @@
 		<!--    The following lines of CSS script is to add a "Read more" button 
 		-->
 		<style>
-			#more1 {display: none;}
-			#more2 {display: none;}
-			#more3 {display: none;}
+			#more {display: none;}
 		</style>
 		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
 			will load a separate set of CSS stylings from the file assets/css/noscript.css
@@ -148,7 +146,7 @@
 								The term "Algol" addresses its prototypical star Beta Persei, a bright multiple star system in 
 								the Perseus constellation. It is one of the first stars recorded to 
 								show a variation in its brightness, dating back to 1244--1163 B.C. 
-								<span id="dots">...</span><span id="more1"> For all Batman enthusiasts, 
+								<span id="dots">...</span><span id="more"> For all Batman enthusiasts, 
 								the word "Algol" is derived from the Arabic word "Ra's al-Ghul", or the head of the Demon. For a 
 								more extensive historical background, see the <a href="https://en.wikipedia.org/wiki/Algol" 
 								target="_blank">Wikipedia</a> page. 
@@ -176,7 +174,7 @@
 								to the observed properties of the massive Algols, I derive constraints on binary and stellar 
 								physics, such as mass transfer efficiency, internal mixing, stellar winds, etc. </span>
 							</p>
-							<button onclick="myFunction()" id="myBtn">Read more</button>
+							<button onclick="myFunction1()" id="myBtn">Read more</button>
 							<p>
 								<br>
 								
@@ -187,7 +185,7 @@
 								
 								Wolf-Rayet stars are the brighest and hottest stars observable in the sky. The spectra of these 
 								stars show broad emission lines of hydrogen, helium, nitrogen, oxygen and/or carbon. They 
-								give out strong radiation-driven winds, <span id="dots">...</span><span id="more2">enriching the interstellar medium with various heavy 
+								give out strong radiation-driven winds, <span id="dots">...</span><span id="more">enriching the interstellar medium with various heavy 
 								elements. While most Wolf-Rayet stars are expected to burning helium in their cores, there 
 								is also a handful of them situated on the main sequence of the Hertzsprung-Russell diagram, 
 								presumably thought to be burning hydrogen in their cores. These stars are thought to be the 
@@ -207,19 +205,19 @@
 								of this class of binaries to understand their impact on the formation of black holes and in turn, 
 								the strongest sources of gravitational wave emission. </span>
 							</p>
-							<button onclick="myFunction()" id="myBtn">Read more</button>
+							<button onclick="myFunction2()" id="myBtn">Read more</button>
 							<p>
 								
 								<br>
 								
-								<b>Compact object binaries</b><br>Project description, <span id="dots">...</span><span id="more3">
+								<b>Compact object binaries</b><br>Project description, <span id="dots">...</span><span id="more">
 								
 								<br>
 								<br>
 								
 								including further links to posters, talks, publications.</span>
 							</p>
-							<button onclick="myFunction()" id="myBtn">Read more</button>
+							<button onclick="myFunction3()" id="myBtn">Read more</button>
 							<p>
 								
 								<br>
@@ -344,7 +342,41 @@
 			<script src="assets/js/main.js"></script>
 			<!-- Java Script to add "read more" button -->
 			<script>
-			function myFunction() {
+			function myFunction1() {
+  				var dots = document.getElementById("dots");
+  				var moreText = document.getElementById("more");
+  				var btnText = document.getElementById("myBtn");
+				
+  				if (dots.style.display === "none") {
+    					dots.style.display = "inline";
+    					btnText.innerHTML = "Read more"; 
+    					moreText.style.display = "none";
+  				} else {
+    					dots.style.display = "none";
+    					btnText.innerHTML = "Read less"; 
+    					moreText.style.display = "inline";
+  				}
+			}
+			</script>
+			<script>
+			function myFunction2() {
+  				var dots = document.getElementById("dots");
+  				var moreText = document.getElementById("more");
+  				var btnText = document.getElementById("myBtn");
+				
+  				if (dots.style.display === "none") {
+    					dots.style.display = "inline";
+    					btnText.innerHTML = "Read more"; 
+    					moreText.style.display = "none";
+  				} else {
+    					dots.style.display = "none";
+    					btnText.innerHTML = "Read less"; 
+    					moreText.style.display = "inline";
+  				}
+			}
+			</script>
+			<script>
+			function myFunction3() {
   				var dots = document.getElementById("dots");
   				var moreText = document.getElementById("more");
   				var btnText = document.getElementById("myBtn");
