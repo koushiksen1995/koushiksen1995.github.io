@@ -121,15 +121,8 @@ cv:
         summary: "2013–2014"
 
     Awards won by my students:
-      - title: "Galileo Circle Scholarship — awarded to my student, Deekshitha Alladi"
-        date: 2026
-        awarder: "University of Arizona"
-        summary: "~1,000 USD"
-
-      - title: "Exploratory Mini-Grant — awarded to my student, Deekshitha Alladi"
-        date: 2025
-        awarder: "W. A. Franke Honors College, University of Arizona"
-        summary: "~4,000 USD"
+      - bullet: "**2026** · Galileo Circle Scholarship — awarded to my student, Deekshitha Alladi · Awarder: University of Arizona. ~1,000 USD"
+      - bullet: "**2025** · Exploratory Mini-Grant — awarded to my student, Deekshitha Alladi · Awarder: W. A. Franke Honors College, University of Arizona. ~4,000 USD"
 
     Competitive Telescope Time:
       - bullet: "**2026** · **(PI)** Gemini South / GHOST — Prop. Nr. 274432, 2026B, 40 hr"
