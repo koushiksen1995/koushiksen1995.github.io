@@ -1,189 +1,410 @@
-cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Koushik Sen
+    - name: Position
+      value: Research Associate, Department of Astronomy, Steward Observatory, University of Arizona
+    - name: Address
+      value: Steward Observatory, 933 N Cherry Ave, Tucson, AZ 85719, USA
+    - name: Phone
+      value: "+1 520 738 2300"
+    - name: Email
+      value: <a href="mailto:ksen@arizona.edu">ksen@arizona.edu</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0002-8134-4854">0000-0002-8134-4854</a>
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Massive binary and stellar evolution
+      items:
+        - Stellar winds
+        - Internal mixing processes
+        - Tides
+    - title: Outcomes of binary interaction
+      items:
+        - X-ray binaries
+        - Stripped-envelope supernovae
+        - Gravitational-wave progenitors
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+- title: Employment
+  type: time_table
+  contents:
+    - title: Research Associate
+      institution: Department of Astronomy, Steward Observatory, University of Arizona, Tucson, USA
+      year: Jan 2025 – present
+    - title: Research Adjunct
+      institution: Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Toruń, Poland
+      year: Nov 2022 – Dec 2024
 
-  sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Natural Sciences, Astronomy and Astrophysics
+      institution: Argelander Institute for Astronomy, Bonn, Germany
+      year: Sep 2022
+      description:
+        - "Thesis: <i>Evolution of short-period massive binaries in the Magellanic Clouds</i>"
+        - "Advisor: Prof. Dr. Norbert Langer"
+        - "Grade: 1.3/4.0 (1.0 highest, 4.0 lowest, in steps of 0.3)"
+        - "Awarded 27 September 2022"
+    - title: Integrated Bachelors and Masters in Science, Physics
+      institution: <a href="https://www.iitkgp.ac.in/department/PH">Indian Institute of Technology Kharagpur</a>, West Bengal, India
+      year: Jul 2018
+      description:
+        - "Masters thesis: <i>Modelling and evolution of supernova remnants</i>"
+        - "Advisor: Prof. Somnath Bharadwaj"
+        - "GPA: 9.65/10; Institute Silver Medalist"
+    - title: High School, I.S.C. (Mathematics, Physics, Chemistry, English)
+      institution: Sri Aurobindo Institute of Education, Kolkata, India
+      year: Jun 2013
+      description:
+        - "95.25%; IIT JEE All India Rank 4958"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Standardised Tests
+  type: list
+  contents:
+    - "<b>GRE General</b> 332/340 &middot; <b>GRE Physics</b> 980/990 (December 2017)"
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+- title: Undergraduate Research Experience
+  type: time_table
+  contents:
+    - title: Laser transmission through fibre at low (UV) wavelengths
+      institution: Laser Spectroscopy Group, Max Planck Institute for Quantum Optics, Garching, Germany
+      year: May – Jul 2018
+      description:
+        - "Supervisor: Prof. Dr. Thomas Udem, in the group of Prof. Dr. T. W. Hänsch"
+    - title: "Short-term variability in magnetized massive stars: contribution from unstable magnetosonic waves"
+      institution: Astronomy and Astrophysics Division, University of Alberta, Edmonton, Canada
+      year: May – Jul 2017
+      description:
+        - "Supervisor: Prof. Rodrigo Fernández"
+        - 'Published as <a href="https://doi.org/10.1093/mnras/sty736">Sen, Fernández &amp; Socrates (2018), MNRAS, 477, 2286</a>'
+    - title: The cooling zones of shocks in the winds of massive stars
+      institution: University Observatory Munich, Ludwig Maximilian University, Munich, Germany
+      year: May – Jul 2016
+      description:
+        - "Supervisor: Prof. Joachim Puls"
+    - title: Encoding information in the phases of qubits
+      institution: Physical Sciences Division, IISER Kolkata, Kalyani, India
+      year: Dec 2014, May – Jul 2015
+      description:
+        - "Supervisor: Prof. Dr. Prasanta K. Panigrahi"
+    - title: Chaotic oscillations of a current-carrying coil in a magnetic field
+      institution: Plasma Physics Division, Saha Institute of Nuclear Physics, Kolkata, India
+      year: May – Jul 2014
+      description:
+        - "Supervisor: Prof. A. N. Sekar Iyengar"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Grants and Awards
+  type: time_table
+  contents:
+    - title: Research grants
+      year: 2025
+      description:
+        - "PI, HST Cycle 33, Prog. ID 18115 — ~43,676 USD"
+    - title: Grants won by my student, Deekshitha Alladi (University of Arizona)
+      year: 2025 – 2026
+      description:
+        - "Galileo Circle Scholarship — ~1,000 USD (2026)"
+        - "Exploratory Mini-Grant, W. A. Franke Honors College — ~4,000 USD (2025)"
+    - title: International travel grants
+      year: 2016 – 2024
+      description:
+        - 'IAU Travel Grant, <a href="https://virtual.oxfordabstracts.com/#/event/public/5099/program">IAU General Assembly</a>, Cape Town — ~600 EUR (2024)'
+        - "AG Travel Grant, German Astronomical Society — ~500 EUR (2022)"
+        - "APS Distinguished Student Program — ~2,000 USD (2018)"
+        - "UARE Scholarship, University of Alberta, Canada — ~6,000 CAD (2017)"
+        - "DAAD WISE Scholarship, Germany — ~2,000 EUR (2016)"
+    - title: Graduation awards, IIT Kharagpur
+      year: 2018
+      description:
+        - "Institute Silver Medal"
+        - "Nilanjan Ganguly Memorial Award, Kedarnath Singh Memorial Award, H. N. Bose Memorial Award, G. B. Mitra Award — total ~20,000 INR"
+    - title: Undergraduate national fellowships, India
+      year: 2013 – 2018
+      description:
+        - "INSPIRE Fellow, Department of Science and Technology, India — ~300,000 INR"
+        - "National Initiative on Undergraduate Sciences (NIUS) Fellow (2013–2014)"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+- title: Competitive Telescope Time
+  type: time_table
+  contents:
+    - title: <b>(PI)</b> Gemini South / GHOST — 40 hr
+      institution: <a href="https://www.gemini.edu/observing/phase-i/standard-semester-program/2026b-call-proposals">NOIRLab, Gemini Observatory</a>
+      year: 2026
+      description:
+        - "Prop. Nr. 274432, semester 2026B"
+    - title: (co-I) JWST / NIRCam + MIRI — 7.4 hr
+      institution: NASA, James Webb Space Telescope
+      year: 2026
+      description:
+        - "Prop. Nr. 11424, Cycle 5"
+    - title: (co-I) VLT / X-SHOOTER — 7.25 hr
+      institution: <a href="https://www.eso.org/public/teles-instr/paranal-observatory/vlt/">ESO Very Large Telescope</a>
+      year: 2026
+      description:
+        - "Prog. ID 117.2A9F"
+    - title: <b>(PI)</b> HST / MAMA E140M — 6 orbits
+      institution: <a href="https://www.stsci.edu/hst/proposing/approved-programs">NASA, Hubble Space Telescope</a>
+      year: 2025
+      description:
+        - "Prop. Nr. 18115, Cycle 33"
+    - title: <b>(PI)</b> XMM-Newton / EPIC pn — 54 ks
+      institution: <a href="https://www.cosmos.esa.int/web/xmm-newton">European Space Agency, XMM-Newton</a>
+      year: 2025
+      description:
+        - "Prop. Nr. 096343, AO24, Priority C"
+    - title: (co-I) VLT / FEROS — 92 hr
+      institution: ESO Very Large Telescope
+      year: 2025
+      description:
+        - "Prog. ID 114.27SV"
+    - title: <b>(PI)</b> VLT / UVES — 10 hr
+      institution: ESO Very Large Telescope
+      year: 2024
+      description:
+        - "Prog. ID 114.27G8"
+    - title: (co-I) VLT / FEROS — 76 hr
+      institution: ESO Very Large Telescope
+      year: 2024
+      description:
+        - "Prog. ID 113.26Y5"
+    - title: (co-I) VLT / FLAMES — 117 hr
+      institution: ESO Very Large Telescope
+      year: 2023
+      description:
+        - "Prog. ID 112.25R7"
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+- title: Refereeing and Review Service
+  type: nested_list
+  contents:
+    - title: Telescope time allocation
+      items:
+        - "Hubble Space Telescope — Stellar Physics panellist, Cycles 33 and 34"
+        - "ESO Very Large Telescope — distributed peer reviewer, P114"
+    - title: Journals
+      items:
+        - "The Astrophysical Journal (ApJ) — 3 articles refereed"
+        - "Astronomy &amp; Astrophysics (A&amp;A) — 5 articles refereed"
+        - "Publications of the Astronomical Society of the Pacific (PASP) — Star Reviewer"
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+- title: Scientific Collaborations
+  type: list
+  contents:
+    - "<b>Stable Mass Transfer Enthusiasts</b>, Flatiron Institute, Center for Computational Astrophysics (2025 – present)"
+    - "<b>The BLOeM survey</b>, PIs Tomer Shenar and Julia Bodensteiner (2024 – present)"
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+- title: Workshops Attended
+  type: time_table
+  contents:
+    - title: <a href="https://www.kitp.ucsb.edu/activities/stellarbh25">Stellar-Mass Black Holes at the Nexus of Optical, X-ray, and Gravitational Wave Surveys</a>
+      institution: KITP, UC Santa Barbara, USA
+      year: Oct – Nov 2025
+    - title: <a href="https://www.simonsfoundation.org/event/workshop-on-stable-mass-transfer-in-binaries-from-onset-to-remnants/">Stable Mass Transfer 2.0 Workshop</a>
+      institution: Flatiron Institute, New York, USA
+      year: May 2025
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+- title: Conference Organisation
+  type: list
+  contents:
+    - "<b>SOC</b>, Binary Stars session, National Astronomy Meeting 2026, University of Birmingham, UK (20–24 July 2026)"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+- title: Invited Reviews
+  type: time_table
+  contents:
+    - title: '"High energy observations of black holes"'
+      institution: <a href="https://www.kitp.ucsb.edu/activities/stellarbh25">StellarBH workshop</a>, KITP, UC Santa Barbara, USA — <a href="https://online.kitp.ucsb.edu/online/stellarbh25/">recording</a>
+      year: Nov 2025
+    - title: '"Binary interactions"'
+      institution: <a href="https://www.astro.keele.ac.uk/jkt/keelebinaries2025/#invspeakers">Binary Stars in the Space Era</a>, Keele, UK
+      year: Jul 2025
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+- title: Invited Seminars
+  type: time_table
+  contents:
+    - title: '"The Algol Renaissance"'
+      institution: Astronomy Tea Talk, Caltech, USA
+      year: May 2026
+    - title: '"X-ray emission from black hole binaries"'
+      institution: <a href="https://fys.kuleuven.be/ster/staff/senior-staff/sana">KU Leuven</a>, Belgium
+      year: Apr 2026
+    - title: '"Binary interactions"'
+      institution: <a href="https://astro.arizona.edu/events/sonsf-noirlab-joint-colloquium-series">SO / NSF NOIRLab Joint Colloquium Series</a>, Tucson, USA
+      year: Feb 2026
+    - title: '"X-ray emission from black holes in orbit with helium stars"'
+      institution: <a href="https://noirlab.edu/science/events/flash-talks">FLASH Talk</a>, NSF NOIRLab, Tucson, USA
+      year: May 2025
+    - title: '"The renaissance of Algol binaries"'
+      institution: <a href="http://www.oa.uj.edu.pl/seminar/index.en.html">Astronomical Observatory, Jagiellonian University</a>, Kraków, Poland
+      year: Apr 2024
+    - title: '"Massive Algols as whetstones for binary star evolution towards GW sources"'
+      institution: <a href="http://web.iucaa.in:8080/iucaa/jsp/Colloquia-Seminars-PublicTalk.jsp">Inter-University Centre for Astronomy and Astrophysics</a>, Pune, India
+      year: Oct 2023
+    - title: '"Observable properties of massive interacting binaries on the main sequence"'
+      institution: <a href="https://www.tifr.res.in/~daa/events_list.html">Tata Institute of Fundamental Research</a>, Mumbai, India
+      year: Oct 2023
+    - title: '"Observable properties of massive Algol binaries"'
+      institution: <a href="https://www.iitkgp.ac.in/department/PH">Department of Physics, IIT Kharagpur</a>, India
+      year: Oct 2023
+    - title: '"Evolution of short-period massive binary stars in the Magellanic Clouds"'
+      institution: <a href="https://th.if.uj.edu.pl/~odrzywolek/homepage/students/SeminariumAstrofizyczne/sem.html">Faculty of Physics, Astronomy and Applied Computer Science, Jagiellonian University</a>, Kraków, Poland
+      year: Apr 2023
+    - title: '"Evolution of short-period massive binary stars in the Magellanic Clouds"'
+      institution: <a href="https://astro.umk.pl/en/institute/general-seminar/general-seminar-2022/">Institute of Astronomy, Nicolaus Copernicus University</a>, Toruń, Poland
+      year: Oct 2022
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+- title: Contributed Talks
+  type: time_table
+  contents:
+    - title: '"X-ray emission from black hole binaries"'
+      institution: <a href="https://asuworkshop.wixsite.com/multimessengerastro">ASU Spring Workshop on Multimessenger Astronomy</a>, Phoenix, USA
+      year: May 2026
+    - title: '"Empirical constraints on mass transfer physics from massive Algol binaries"'
+      institution: <a href="https://astronomia.unam.mx/iaus402_massivestars/">IAU Symposium 402</a>, Ensenada, Mexico
+      year: Sep 2025
+    - title: '"Empirical constraints on mass transfer physics from massive Algol binaries"'
+      institution: <a href="https://eas.unige.ch/EAS2025/session.jsp?id=S5">EAS 2025, Session S5</a>, Cork, Ireland
+      year: Jun 2025
+    - title: '"X-ray emission from stripped helium star + black hole binaries"'
+      institution: <a href="https://eas.unige.ch/EAS2025/session.jsp?id=SS37">EAS 2025, Session SS37</a>, Cork, Ireland
+      year: Jun 2025
+    - title: '"X-ray emission from helium star + black hole binaries"'
+      institution: <a href="https://gravity.snu.ac.kr/iaus398/">IAU Symposium 398 / MODEST-25</a>, Seoul, South Korea
+      year: Jun 2025
+    - title: '"Whispering in the dark: X-ray faint BHs around OB stars"'
+      institution: "<a href=\"https://events.mpe.mpg.de/event/15/overview\">eROSITA Meeting: from stars to cosmology</a>, MPE Garching, Germany"
+      year: Sep 2024
+    - title: '"Faint X-ray emission from black holes with OB star companions"'
+      institution: <a href="https://www.cosmos.esa.int/web/vtfs2024-barba/vfts-2024">VFTS Meeting</a>, ESA Madrid, Spain
+      year: Sep 2024
+    - title: '"X-ray faint BHs around OB stars"'
+      institution: <a href="https://sites.google.com/cft.edu.pl/clagn">Galactic and extragalactic X-ray transients</a>, Warsaw, Poland
+      year: Sep 2024
+    - title: '"Whispering in the dark: X-ray faint BHs around OB stars"'
+      institution: <a href="https://events.camk.edu.pl/event/95/">MODEST-24</a>, Warsaw, Poland
+      year: Aug 2024
+    - title: '"Observable properties of massive Algols"'
+      institution: <a href="https://virtual.oxfordabstracts.com/#/event/public/5099/program">IAU General Assembly, Division G</a>, Cape Town, South Africa — <a href="https://www.youtube.com/live/Q66x4tuHI8c?t=4860">recording</a>
+      year: Aug 2024
+    - title: '"Massive Algols as whetstones for the progenitors of gravitational wave sources"'
+      institution: <a href="https://gw2024.saao.ac.za/programme/">IAU Symposium 389 — Gravitational Wave Astrophysics</a>, Cape Town, South Africa — <a href="https://www.youtube.com/live/wM0R9HVTdWU?t=5168">recording</a>
+      year: Aug 2024
+    - title: '"Observable properties of Algol binaries across the Hertzsprung-Russell diagram"'
+      institution: <a href="https://www.liac41.uliege.be/cms/c_17843766/en/liac41">LIAC41 — The eventful life of massive star multiples</a>, Liège, Belgium
+      year: Jul 2024
+    - title: '"Observable consequences of interactions in massive main sequence binaries"'
+      institution: <a href="https://fys.kuleuven.be/ster/events/conferences/2023/massivebinaries2023/programme">3, 2, 1&#58; Massive Triples, Binaries and Mergers</a>, KU Leuven, Belgium — <a href="https://youtu.be/Ah_uSdTtdJc?t=40">recording</a>
+      year: Jul 2023
+    - title: '"Reverse Algols and hydrogen-rich Wolf-Rayet stars from massive binary evolution"'
+      institution: <a href="https://eas.unige.ch/EAS2023/index.jsp">EAS Annual Meeting</a>, Kraków, Poland
+      year: Jul 2023
+    - title: '"Hydrogen-rich Wolf-Rayet stars on the main sequence from massive binaries"'
+      institution: <a href="https://wruniverse2023.irya.unam.mx/web/">The Wolf-Rayet phenomenon in the Universe</a>, Morelia, Mexico
+      year: Jun 2023
+    - title: '"Nuclear-timescale reverse Algol evolution and hydrogen-rich Wolf-Rayet stars from very massive binaries"'
+      institution: <a href="https://ag2022.astronomische-gesellschaft.de/view_abstract.php?id=26">Annual Meeting of the Astronomische Gesellschaft</a>, Germany
+      year: Sep 2022
+    - title: '"Compact object progenitors and their companions on the HR diagram"'
+      institution: <a href="https://sites.google.com/view/supervirtual2021/program">SuperVirtual 2021 — From Common to Exotic Transients</a>
+      year: Nov 2021
+    - title: '"Detailed models of interacting short-period massive binary stars as progenitors of gravitational wave sources"'
+      institution: MPA–NBIA Gravitational Wave Astrophysics Workshop, Garching, Germany
+      year: Nov 2021
+    - title: '"X-ray emission from BH + O star binaries expected to descend from the observed Galactic WR + O binaries"'
+      institution: <a href="https://ag2021.astronomische-gesellschaft.de/view_abstract.php?id=4">Annual Meeting of the Astronomische Gesellschaft</a>
+      year: Sep 2021
+    - title: '"Case A mass transfer: a comprehensive study of their observable stellar properties"'
+      institution: <a href="https://ag2020.astronomische-gesellschaft.de/view_abstract.php?id=23">Annual Meeting of the Astronomische Gesellschaft</a>
+      year: Sep 2020
+    - title: '"Variability in winds of magnetic massive stars: effect of unstable magnetosonic modes"'
+      institution: <a href="https://meetings.aps.org/Meeting/APR18/Session/K16.9">APS April Meeting — From Quarks to Cosmos</a>, USA — <a href="https://absuploads.aps.org/presentation.cfm?pid=13927">abstract</a>
+      year: Apr 2018
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+- title: Public Outreach
+  type: time_table
+  contents:
+    - title: '"Batman and eclipsing binaries"'
+      institution: <a href="https://astronomyontap.org/locations/tucson-az/">Space Drafts, Astronomy on Tap</a>, Tucson, USA — <a href="https://www.youtube.com/live/xdDyrJsMcR4?t=180">recording</a>
+      year: May 2025
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Guest Lecturer — graduate astronomy program
+      institution: University of Arizona, USA
+      year: 2025
+      description:
+        - '<i>X-ray emission from black holes</i>, winter semester. Instructor&#58; Brittany Miles. <a href="https://docs.google.com/presentation/d/16Sdg4-jq1M82fECpGWYynR1I3m47ePOO6JmKep3DmFo/edit">Slides</a>'
+        - '<i>Massive binary star evolution</i>, summer semester. Instructor&#58; Mathieu Renzo. <a href="https://docs.google.com/presentation/d/1K6OsLFZnOgb5_yDRxvUMAuom9nTw7zrXiiisdfuZ5HA/edit">Slides</a>, <a href="https://drive.google.com/file/d/1i7L2EwlZwrv8_Ajf7_rBm4nZ4zvYoEGA/view">notes</a>'
+    - title: Guest Lecturer — Masters course
+      institution: Nicolaus Copernicus University, Toruń, Poland
+      year: 2024
+      description:
+        - "<i>Introduction to binary stars</i>, summer semester. Instructor: Dorottya Szécsi"
+    - title: Tutor — Masters courses
+      institution: University of Bonn, Germany
+      year: 2020 – 2021
+      description:
+        - "<i>Stellar Nucleosynthesis</i>, summer semester 2021. Instructor: Norbert Langer"
+        - "<i>Stellar Structure and Evolution</i>, winter semester 2020. Instructor: Norbert Langer"
+        - "<i>Programming in Python</i>, summer semester 2020. Instructor: Thomas Erben"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+- title: Publications
+  type: nested_list
+  contents:
+    - title: Overview
+      items:
+        - 'Full rendered list on the <a href="/publications/">publications page</a>'
+        - 'ADS&#58; <a href="https://ui.adsabs.harvard.edu/public-libraries/bLL0jRbxTBK5w5_K1O0BNA">first-authored</a>, <a href="https://ui.adsabs.harvard.edu/public-libraries/waMQHOhTR6ycT8YI7QYrrg">all publications</a>. ORCID <a href="https://orcid.org/0000-0002-8134-4854">0000-0002-8134-4854</a>'
+    - title: First-authored publications
+      items:
+        - 'Sen, K., M. Renzo, et al. (2026), <a href="https://doi.org/10.3847/1538-4357/ae40fc">ApJ, 1000, 2</a>'
+        - 'Sen, K., A. Olejak &amp; S. Banerjee (2025), <a href="https://doi.org/10.1051/0004-6361/202553829">A&amp;A, 696, A54</a>'
+        - 'Sen, K., I. El Mellah, et al. (2024), <a href="https://doi.org/10.1051/0004-6361/202450940">A&amp;A, 690, A256</a>'
+        - 'Sen, K., N. Langer, et al. (2023), <a href="https://doi.org/10.1051/0004-6361/202245378">A&amp;A, 672, A198</a>'
+        - 'Sen, K., N. Langer, et al. (2022), <a href="https://doi.org/10.1051/0004-6361/202142574">A&amp;A, 659, A98</a>'
+        - 'Sen, K., X.-T. Xu, et al. (2021), <a href="https://doi.org/10.1051/0004-6361/202141214">A&amp;A, 652, A138</a>'
+        - 'Sen, K., R. Fernández &amp; A. Socrates (2018), <a href="https://doi.org/10.1093/mnras/sty736">MNRAS, 477, 2286</a>'
+    - title: Student-led publications
+      items:
+        - 'Shah, N., M. Renzo, K. Sen, et al. (2026), <a href="https://arxiv.org/abs/2602.12327">arXiv&#58;2602.12327</a>'
+    - title: Co-authored publications
+      items:
+        - 'Renzo, M., et al. (2026), <a href="https://arxiv.org/abs/2606.21824">arXiv&#58;2606.21824</a>'
+        - 'van Son, L. A. C., et al. (2026), <a href="https://doi.org/10.3847/1538-4365/ae8d04">ApJS, 286, 13</a>'
+        - 'Menon, A., et al. (2026), <a href="https://doi.org/10.1051/0004-6361/202452694">A&amp;A, 705, A43</a>'
+        - 'Xu, X.-T., et al. (2025), <a href="https://doi.org/10.1051/0004-6361/202554786">A&amp;A, 704, A218</a>'
+        - 'Sana, H., et al. (2025), <a href="https://doi.org/10.1038/s41550-025-02610-x">Nature Astronomy, 9, 1337</a>'
+        - 'Villaseñor, J. I., et al. (2025), <a href="https://doi.org/10.1051/0004-6361/202453166">A&amp;A, 698, A41</a>'
+        - 'Britavskiy, N., et al. (2025), <a href="https://doi.org/10.1051/0004-6361/202452963">A&amp;A, 698, A40</a>'
+        - 'Patrick, L. R., et al. (2025), <a href="https://doi.org/10.1051/0004-6361/202452949">A&amp;A, 698, A39</a>'
+        - 'Bodensteiner, J., et al. (2025), <a href="https://doi.org/10.1051/0004-6361/202452623">A&amp;A, 698, A38</a>'
+        - 'Schürmann, C., et al. (2024), <a href="https://doi.org/10.1051/0004-6361/202450353">A&amp;A, 690, A282</a>'
+        - 'Shenar, T., et al. (2024), <a href="https://doi.org/10.1051/0004-6361/202451586">A&amp;A, 690, A289</a>'
+        - 'Belczynski, K., et al. (2024), <a href="https://doi.org/10.1051/0004-6361/202450229">A&amp;A, 690, A21</a>'
+        - 'Sana, H., et al. (2024), <a href="https://doi.org/10.1017/S1743921322003180">IAU Symp., 361, 267</a>'
+        - 'Banyard, G., et al. (2023), <a href="https://doi.org/10.1051/0004-6361/202244742">A&amp;A, 674, A60</a>'
+        - 'Shenar, T., et al. (2022), <a href="https://doi.org/10.1051/0004-6361/202244245">A&amp;A, 665, A148</a>'
+        - 'Mahy, L., et al. (2022), <a href="https://doi.org/10.1051/0004-6361/202243147">A&amp;A, 664, A159</a>'
+        - 'Shenar, T., et al. (2022), <a href="https://doi.org/10.1038/s41550-022-01730-y">Nature Astronomy, 6, 1085</a>'
+        - 'Mahy, L., et al. (2021), <a href="https://doi.org/10.5281/zenodo.5722652">MOBSTER-1 conf. proc., 55</a>'
+        - 'Menon, A., et al. (2021), <a href="https://doi.org/10.1093/mnras/stab2276">MNRAS, 507, 5013</a>'
+        - 'Puls, J., et al. (2020), <a href="https://doi.org/10.1051/0004-6361/202038464">A&amp;A, 642, A172</a>'
+        - 'Langer, N., et al. (2020), <a href="https://doi.org/10.1051/0004-6361/201937375">A&amp;A, 638, A39</a>'
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+# Referee email addresses from the PDF are not included here — they are other
+# people's contact details and this page is public. Add them into the `value`
+# fields below if your referees are happy with that.
+- title: References
+  type: map
+  contents:
+    - name: Prof. Dr. Norbert Langer
+      value: PhD supervisor, Argelander Institute for Astronomy, University of Bonn
+    - name: Prof. Dr. Hugues Sana
+      value: Collaborator, KU Leuven
+    - name: Prof. Dr. Dorottya Szécsi
+      value: Postdoc supervisor, Nicolaus Copernicus University in Toruń
+    - name: Prof. Dr. Mathieu Renzo
+      value: Postdoc supervisor, Steward Observatory, University of Arizona
