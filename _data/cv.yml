@@ -1,13 +1,18 @@
 cv:
   name: Koushik Sen
-  label: Stellar Astrophysicist
+  label: Astrophysicist — massive binary evolution
   email: ksen@arizona.edu
-  <!-- phone: "+1 520 738 2300" -->
   location: Tucson, AZ, USA
   website: https://koushiksen1995.github.io
   image: ""
   summary: >-
     Research on massive stars in binaries using detailed binary evolution models computed with MESA and multi-epoch spectroscopic and photometric observations from the NASA Hubble Space Telescope, NOIRLab Gemini Observatory and the ESO Very Large Telescope.
+
+  social_networks:
+    - network: GitHub
+      username: koushiksen1995
+    - network: ORCID
+      username: 0000-0002-8134-4854
 
   address:
     street: Steward Observatory, 933 N Cherry Ave
@@ -19,7 +24,7 @@ cv:
   sections:
     Experience:
       - company: Department of Astronomy, Steward Observatory, University of Arizona
-        position: Postdoctoral research associate
+        position: Research Associate
         location: Tucson, AZ, USA
         start_date: 2025
         end_date: ""
@@ -27,17 +32,15 @@ cv:
       - company: Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University
         position: Research Adjunct
         location: Toruń, Poland
-        start_date: Nov 2022
-        end_date: Dec 2024
+        start_date: 2022
+        end_date: 2024
 
     Education:
       - institution: Argelander Institute for Astronomy, University of Bonn
         location: Bonn, Germany
-        url: https://www.aifa.uni-bonn.de/en/argelander-institute-for-astronomy
         area: Astronomy and Astrophysics
         studyType: PhD in Natural Sciences
-        start_date: Nov 2018
-        end_date: Oct 2022
+        date: 2022
         score: 1.3/4.0 (1.0 highest, 4.0 lowest, in steps of 0.3)
         highlights:
           - "Thesis: *Evolution of short-period massive binaries in the Magellanic Clouds*"
@@ -48,13 +51,12 @@ cv:
         location: West Bengal, India
         url: https://www.iitkgp.ac.in/department/PH
         area: Physics
-        studyType: Integrated Bachelor's and Master's in Science
+        studyType: Integrated Bachelors and Masters in Science
         date: 2018
         highlights:
           - "Masters thesis: *Modelling and evolution of supernova remnants*"
           - "Advisor: Prof. Somnath Bharadwaj"
           - GPA 9.65/10; Institute Silver Medalist
-          - "GRE General 332/340, GRE Physics 980/990 (December 2017)"
 
       - institution: Sri Aurobindo Institute of Education
         location: Kolkata, India
@@ -63,6 +65,7 @@ cv:
         date: 2013
         highlights:
           - 95.25%; IIT JEE All India Rank 4958
+          - "GRE General 332/340, GRE Physics 980/990 (December 2017)"
 
     Academic Interests:
       - name: Massive binary and stellar evolution
@@ -70,20 +73,27 @@ cv:
           - stellar winds
           - internal mixing processes
           - tides
-          - mass transfer efficiency and stability
       - name: Outcomes of binary interaction
         keywords:
-          - Algol binaries
-          - Wolf-Rayet binaries
           - X-ray binaries
           - stripped-envelope supernovae
           - gravitational-wave progenitors
 
     Awards:
-      - title: "(PI) HST Cycle 33 research grant"
+      - title: "HST Cycle 33 research grant (PI)"
         date: 2025
         awarder: "NASA / STScI, Prog. ID 18115"
         summary: "~43,676 USD"
+
+      - title: "Galileo Circle Scholarship — awarded to my student, Deekshitha Alladi"
+        date: 2026
+        awarder: "University of Arizona"
+        summary: "~1,000 USD"
+
+      - title: "Exploratory Mini-Grant — awarded to my student, Deekshitha Alladi"
+        date: 2025
+        awarder: "W. A. Franke Honors College, University of Arizona"
+        summary: "~4,000 USD"
 
       - title: "IAU Travel Grant"
         date: 2024
@@ -126,20 +136,13 @@ cv:
         awarder: "Department of Science and Technology, India"
         summary: "~300,000 INR over 2013–2018"
 
-    Awards won by my students:
-
-      - title: "Galileo Circle Scholarship — awarded to my student, Deekshitha Alladi"
-        date: 2026
-        awarder: "University of Arizona"
-        summary: "~1,000 USD"
-
-      - title: "Exploratory Mini-Grant — awarded to my student, Deekshitha Alladi"
-        date: 2025
-        awarder: "W. A. Franke Honors College, University of Arizona"
-        summary: "~4,000 USD"
+      - title: "National Initiative on Undergraduate Sciences (NIUS) Fellow"
+        date: 2013
+        awarder: "Homi Bhabha Centre for Science Education"
+        summary: "2013–2014"
 
     Competitive Telescope Time:
-      - bullet: "**2026** · **(PI)** [Gemini South / GHOST](https://www.gemini.edu/observing/phase-i/standard-semester-program/2026b-call-proposals) — Prop. Nr. GS-2026B-Q-222, 40 hr"
+      - bullet: "**2026** · **(PI)** [Gemini South / GHOST](https://www.gemini.edu/observing/phase-i/standard-semester-program/2026b-call-proposals) — Prop. Nr. 274432, 2026B, 40 hr"
       - bullet: "**2026** · (co-I) JWST / NIRCam + MIRI — Prop. Nr. 11424, Cycle 5, 7.4 hr"
       - bullet: "**2026** · (co-I) [ESO VLT / X-SHOOTER](https://www.eso.org/public/teles-instr/paranal-observatory/vlt/) — Prog. ID 117.2A9F, 7.25 hr"
       - bullet: "**2025** · **(PI)** [HST / MAMA E140M](https://www.stsci.edu/hst/proposing/approved-programs) — Prop. Nr. 18115, Cycle 33, 6 orbits"
@@ -159,7 +162,7 @@ cv:
     Conference Organisation:
       - bullet: "**2026** · SOC, Binary Stars session, National Astronomy Meeting, University of Birmingham, UK (20–24 July 2026)"
 
-    Invited Workshops Attended:
+    Workshops Attended:
       - bullet: "**2025** · [Stellar-Mass Black Holes at the Nexus of Optical, X-ray, and Gravitational Wave Surveys](https://www.kitp.ucsb.edu/activities/stellarbh25) — KITP, UC Santa Barbara (Oct–Nov)"
       - bullet: "**2025** · [Stable Mass Transfer 2.0](https://www.simonsfoundation.org/event/workshop-on-stable-mass-transfer-in-binaries-from-onset-to-remnants/) — Flatiron Institute, New York (May)"
 
