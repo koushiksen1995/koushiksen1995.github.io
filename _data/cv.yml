@@ -75,20 +75,9 @@ cv:
         awarder: "NASA / STScI, Prog. ID 18115"
         summary: "43,676 USD"
 
-      - title: "Galileo Circle Scholarship — awarded to my student, Deekshitha Alladi"
-        date: 2026
-        awarder: "University of Arizona"
-        summary: "~1,000 USD"
-
-      - title: "Exploratory Mini-Grant — awarded to my student, Deekshitha Alladi"
-        date: 2025
-        awarder: "W. A. Franke Honors College, University of Arizona"
-        summary: "~4,000 USD"
-
       - title: "IAU Travel Grant"
         date: 2024
         awarder: "International Astronomical Union"
-        url: https://virtual.oxfordabstracts.com/#/event/public/5099/program
         summary: "~600 EUR, for the IAU General Assembly, Cape Town"
 
       - title: "AG Travel Grant"
@@ -131,12 +120,23 @@ cv:
         awarder: "Homi Bhabha Centre for Science Education"
         summary: "2013–2014"
 
+    Awards won by my students:
+      - title: "Galileo Circle Scholarship — awarded to my student, Deekshitha Alladi"
+        date: 2026
+        awarder: "University of Arizona"
+        summary: "~1,000 USD"
+
+      - title: "Exploratory Mini-Grant — awarded to my student, Deekshitha Alladi"
+        date: 2025
+        awarder: "W. A. Franke Honors College, University of Arizona"
+        summary: "~4,000 USD"
+
     Competitive Telescope Time:
-      - bullet: "**2026** · **(PI)** [Gemini South / GHOST](https://www.gemini.edu/observing/phase-i/standard-semester-program/2026b-call-proposals) — Prop. Nr. 274432, 2026B, 40 hr"
+      - bullet: "**2026** · **(PI)** Gemini South / GHOST — Prop. Nr. 274432, 2026B, 40 hr"
       - bullet: "**2026** · (co-I) JWST / NIRCam + MIRI — Prop. Nr. 11424, Cycle 5, 7.4 hr"
-      - bullet: "**2026** · (co-I) [ESO VLT / X-SHOOTER](https://www.eso.org/public/teles-instr/paranal-observatory/vlt/) — Prog. ID 117.2A9F, 7.25 hr"
-      - bullet: "**2025** · **(PI)** [HST / MAMA E140M](https://www.stsci.edu/hst/proposing/approved-programs) — Prop. Nr. 18115, Cycle 33, 6 orbits"
-      - bullet: "**2025** · **(PI)** [XMM-Newton / EPIC pn](https://www.cosmos.esa.int/web/xmm-newton) — Prop. Nr. 096343, AO24, Priority C, 54 ks"
+      - bullet: "**2026** · (co-I) ESO VLT / X-SHOOTER — Prog. ID 117.2A9F, 7.25 hr"
+      - bullet: "**2025** · **(PI)** HST / MAMA E140M — Prop. Nr. 18115, Cycle 33, 6 orbits"
+      - bullet: "**2025** · **(PI)** XMM-Newton / EPIC pn — Prop. Nr. 096343, AO24, Priority C, 54 ks"
       - bullet: "**2025** · (co-I) ESO VLT / FEROS — Prog. ID 114.27SV, 92 hr"
       - bullet: "**2024** · **(PI)** ESO VLT / UVES — Prog. ID 114.27G8, 10 hr"
       - bullet: "**2024** · (co-I) ESO VLT / FEROS — Prog. ID 113.26Y5, 76 hr"
@@ -162,7 +162,7 @@ cv:
 
     Invited Seminars:
       - bullet: "**May 2026** · *The Algol Renaissance* — Astronomy Tea Talk, Caltech"
-      - bullet: "**Apr 2026** · *X-ray emission from black hole binaries* — [KU Leuven](https://fys.kuleuven.be/ster/staff/senior-staff/sana), Belgium"
+      - bullet: "**Apr 2026** · *X-ray emission from black hole binaries* — KU Leuven, Belgium"
       - bullet: "**Feb 2026** · *Binary interactions* — [SO / NSF NOIRLab Joint Colloquium Series](https://astro.arizona.edu/events/sonsf-noirlab-joint-colloquium-series), Tucson"
       - bullet: "**May 2025** · *X-ray emission from black holes in orbit with helium stars* — [FLASH Talk](https://noirlab.edu/science/events/flash-talks), NSF NOIRLab, Tucson"
       - bullet: "**Apr 2024** · *The renaissance of Algol binaries* — [Astronomical Observatory, Jagiellonian University](http://www.oa.uj.edu.pl/seminar/index.en.html), Kraków"
