@@ -33,6 +33,8 @@ I was born and brought up in Kolkata, India. I completed my Bachelor's and Maste
 
 Following my doctorate, I held a research adjunct position at the Nicolaus Copernicus University in Torun, Poland, before moving to Tucson, Arizona. Working in astronomy has given me the opportunity to travel all around the world, experiencing different cultures, cuisines and people. Some pictures <a href='https://koushiksen1995.github.io/blog/'>here</a>.
 
+<a href='https://ui.adsabs.harvard.edu/public-libraries/bLL0jRbxTBK5w5_K1O0BNA'>First author publications</a> | <a href='https://ui.adsabs.harvard.edu/public-libraries/waMQHOhTR6ycT8YI7QYrrg'>All publications</a>
+
 <!-- #Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.  -->
 
 <!-- #Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
