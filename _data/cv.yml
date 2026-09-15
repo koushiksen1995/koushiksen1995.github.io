@@ -206,17 +206,9 @@ cv:
       - bullet: "**2015** · *Encoding information in the phases of qubits* — IISER Kolkata, Kalyani. Supervisor: Prasanta K. Panigrahi"
       - bullet: "**2014** · *Chaotic oscillations of a current-carrying coil in a magnetic field* — Saha Institute of Nuclear Physics, Kolkata. Supervisor: A. N. Sekar Iyengar"
 
-    Projects:
-      - name: Stable Mass Transfer Enthusiasts
-        summary: Collaboration hosted at the Flatiron Institute, Center for Computational Astrophysics.
-        start_date: 2025
-        end_date: ""
-
-      - name: The BLOeM survey
-        summary: "VLT spectroscopic monitoring of massive stars in the SMC. PIs: Tomer Shenar and Julia Bodensteiner."
-        url: https://doi.org/10.1051/0004-6361/202451586
-        start_date: 2024
-        end_date: ""
+    Collaborations:
+      - bulllet: "**2025-2026** · **Stable Mass Transfer Enthusiasts** · Flatiron Institute, Center for Computational Astrophysics. Published as [Van Son et al. (2026)](https://ui.adsabs.harvard.edu/abs/2026ApJS..286...13V/abstract)"
+      - bullet: "**2024-present** · [The BLOeM survey](https://www.tomershenar.com/bloem): VLT spectroscopic monitoring of massive stars in the SMC · PIs: Tomer Shenar and Julia Bodensteiner"
 
     Publications:
       - title: "Full list, continuously updated"
