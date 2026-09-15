@@ -32,8 +32,8 @@ cv:
       - company: Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University
         position: Research Adjunct
         location: Toruń, Poland
-        start_date: 2022
-        end_date: 2024
+        start_date: Nov 2022
+        end_date: Dec 2024
 
     Education:
       - institution: Argelander Institute for Astronomy, University of Bonn
@@ -66,18 +66,6 @@ cv:
         highlights:
           - 95.25%; IIT JEE All India Rank 4958
           - "GRE General 332/340, GRE Physics 980/990 (December 2017)"
-
-    Academic Interests:
-      - name: Massive binary and stellar evolution
-        keywords:
-          - stellar winds
-          - internal mixing processes
-          - tides
-      - name: Outcomes of binary interaction
-        keywords:
-          - X-ray binaries
-          - stripped-envelope supernovae
-          - gravitational-wave progenitors
 
     Awards:
       - title: "HST Cycle 33 research grant (PI)"
