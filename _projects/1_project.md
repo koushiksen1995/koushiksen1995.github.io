@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Massive Algol binaries
-description: Eclipsing, double-lined binary systems caught during mass transfer- the most direct constraint we can derive on mass-transfer physics and tidal theory.
+description: Eclipsing, double-lined spectroscopic binary systems caught during mass transfer- excellent systems to understand mass-transfer physics, tidal theory, and internal mixing processes.
 img: assets/img/project_algol.jpg
 importance: 1
 category: research
