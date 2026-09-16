@@ -8,6 +8,9 @@ category: research
 related_publications: false
 ---
 
+{% include figure.liquid loading="eager" path="assets/img/project_algol.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+Configuration of Algol binaries caught during mass transfer
+
 The term "Algol" refers to its prototype star, Beta Persei, a bright multiple-star system in the Perseus constellation. It is one of the first stars recorded to show a variation in its brightness, dating back to 1244-1163 B.C. For all Batman enthusiasts, the word "Algol" is derived from the Arabic word "Ra's al-Ghul", or the head of the Demon. For a more extensive historical background, see the <a href="https://en.wikipedia.org/wiki/Algol" target="_blank">Wikipedia</a> page. 
 
 These systems have short orbital periods (a few days) and can, more often than not, be observable as double-lined eclipsing binaries. Hence, they are ideal systems for studying stellar and binary properties as precise measurements of their component masses, radii, and effective temperatures are possible. Moreover, they constitute a long-lived phase of close binary evolution where we see the systems in a unique configuration where the less massive star transfers mass to its more massive companion. About 50 massive Algol binaries have been observed across our Milky Way, the Large Magellanic Cloud, and the Small Magellanic Cloud combined. 
