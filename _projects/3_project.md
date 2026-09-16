@@ -7,5 +7,5 @@ importance: 3
 category: research
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-X-ray emission from black holes accreting from the wind of O star companions.
+{% include figure.liquid loading="eager" path="assets/img/project_hmxb.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+X-ray emission from black holes accreting from the wind of an O star companion.
