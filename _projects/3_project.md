@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gravitational wave progenitors
+title: Black hole X-ray binaries
 description: Determining observable signatures of immediate progenitors of binary black hole binaries
 img: assets/img/project_hmxb.jpg
 importance: 3
