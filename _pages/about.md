@@ -31,7 +31,7 @@ I am a stellar astrophysicist working on various aspects of massive stars in bin
 
 I was born and brought up in Kolkata, India. I completed my Bachelor's and Master's in Physics at the Indian Institute of Technology Kharagpur. I did my doctoral studies at the Argelander Institute for Astronomy, University of Bonn. I worked with Prof. Dr. Norbert Langer on modelling massive Algol binaries and black hole high-mass X-ray binaries. You can find a copy of my thesis <a href='https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/10363'>here</a>.
 
-Following my doctorate, I held a research adjunct position at the Nicolaus Copernicus University in Torun, Poland, before moving to Tucson, Arizona. Working in astronomy has given me the opportunity to travel all around the world, experiencing different cultures, cuisines and people. Some pictures <a href='https://koushiksen1995.github.io/blog/'>here</a>.
+Following my doctorate, I held a research adjunct position at the Nicolaus Copernicus University in Torun, Poland, before moving to Tucson, Arizona. Working in astronomy has given me the opportunity to travel all around the world, experiencing different cultures, cuisines and people. Some pictures <a href='https://www.instagram.com/koushik.sen_/'>here</a>.
 
 <a href='https://scholar.google.com/citations?user=0lJExRMAAAAJ&hl=en&oi=sra'>Google scholar profile</a>, <a href='https://ui.adsabs.harvard.edu/public-libraries/bLL0jRbxTBK5w5_K1O0BNA'>First author publications</a>, <a href='https://ui.adsabs.harvard.edu/public-libraries/waMQHOhTR6ycT8YI7QYrrg'>All publications</a>
 
