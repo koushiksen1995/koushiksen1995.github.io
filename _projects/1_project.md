@@ -1,25 +1,14 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Massive Algol binaries
+description: Eclipsing, double-lined binary systems caught during mass transfer — the most direct constraint we can derive on mass-transfer efficiency and stability.
+img: assets/img/project_algol.jpg
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The term "Algol" refers to its prototypical star Beta Persei, a bright multiple star system in the Perseus constellation. It is one of the first stars recorded to show a variation in its brightness, dating back to 1244--1163 B.C. For all Batman enthusiasts, the word "Algol" is derived from the Arabic word "Ra's al-Ghul", or the head of the Demon. For a more extensive historical background, see the <a href="https://en.wikipedia.org/wiki/Algol" target="_blank">Wikipedia</a> page. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
