@@ -5,7 +5,7 @@ description: Eclipsing, double-lined binary systems caught during mass transfer-
 img: assets/img/project_algol.jpg
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 ---
 
 The term "Algol" refers to its prototype star, Beta Persei, a bright multiple-star system in the Perseus constellation. It is one of the first stars recorded to show a variation in its brightness, dating back to 1244-1163 B.C. For all Batman enthusiasts, the word "Algol" is derived from the Arabic word "Ra's al-Ghul", or the head of the Demon. For a more extensive historical background, see the <a href="https://en.wikipedia.org/wiki/Algol" target="_blank">Wikipedia</a> page. 
