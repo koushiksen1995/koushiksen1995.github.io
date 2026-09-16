@@ -10,61 +10,6 @@ related_publications: true
 
 The term "Algol" refers to its prototype star, Beta Persei, a bright multiple-star system in the Perseus constellation. It is one of the first stars recorded to show a variation in its brightness, dating back to 1244-1163 B.C. For all Batman enthusiasts, the word "Algol" is derived from the Arabic word "Ra's al-Ghul", or the head of the Demon. For a more extensive historical background, see the <a href="https://en.wikipedia.org/wiki/Algol" target="_blank">Wikipedia</a> page. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+These systems have short orbital periods (a few days) and can, more often than not, be observable as double-lined eclipsing binaries. Hence, they are ideal systems for studying stellar and binary properties as precise measurements of their component masses, radii, and effective temperatures are possible. Moreover, they constitute a long-lived phase of close binary evolution where we see the systems in a unique configuration where the less massive star transfers mass to its more massive companion. About 50 massive Algol binaries have been observed across our Milky Way, the Large Magellanic Cloud, and the Small Magellanic Cloud combined. 
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+These properties of Algol binaries provide a unique testbed for our theories of massive stellar and binary evolution, including the physics of binary interaction. I study the evolution of massive Algol binaries (Algols heavier than eight times the mass of the Sun) using detailed binary evolution models computed using the software <a href="https://mesastar.org/" target="_blank">MESA</a> (Modules for Experiments in Stellar Astrophysics). By directly comparing binary model predictions with observed properties of massive Algols, I derive constraints on binary and stellar physics, including mass-transfer efficiency, internal mixing, and stellar winds.
