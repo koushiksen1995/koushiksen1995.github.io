@@ -25,6 +25,6 @@ nav_order: 7
 <b>Cognitive Behavioural Therapy (CBT):</b> <a href="https://www.therapistaid.com/therapy-worksheet/cognitive-model-example-practice">
 Example and Practice Sheet</a> | <a href="https://www.therapistaid.com/therapy-worksheets/cbt/none">
 More resources</a> | <a href="https://www.hpft.nhs.uk/media/1655/wellbeing-team-cbt-workshop-booklet-2016.pdf">
-Workbook</a> | <a  <strong>Overcoming Anticipatory Anxiety</strong> <span class="author">by Sally M. Winston and Martin N. Seif</span></a>
+Workbook</a> | <strong>Overcoming Anticipatory Anxiety</strong> <span class="author">by Sally M. Winston and Martin N. Seif</span>
 
 <b>Eye Movement Desensitization and Reprocessing (EMDR) Therapy:</b> <a href="https://www.youtube.com/watch?v=Ljss_Ut5pxY">Practice video</a>
