@@ -1,4 +1,4 @@
-Deekshitha is pursuing an Astronomy major with a minor in Philosophy (2024-2028). 
+Deekshitha is pursuing an Astronomy major with a minor in Philosophy (2024-present). 
 
 Since Feb 2025, she has been working on black hole high-mass X-ray binaries and galactic dynamics to understand the origin of high-spin black holes in the LIGO/Virgo/Kagra data.
 
