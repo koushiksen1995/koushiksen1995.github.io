@@ -24,5 +24,5 @@ profiles:
     more_info: >
       <p>Department of Physics</p>
       <p>University of Arizona</p>
-      <p><a href="https://tap.arizona.edu/person/tulsi-narayanan">Tulsi's website</a></p>
+      <p><a href="https://www.linkedin.com/in/tulsi-narayanan-329248341/">Tulsi's website</a></p>
 ---
