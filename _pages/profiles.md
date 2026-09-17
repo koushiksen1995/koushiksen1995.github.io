@@ -1,28 +1,28 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: members of the lab or group
-nav: false
-nav_order: 7
+title: students
+description: current students
+nav: true
+nav_order: 8
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: deekshitha.png
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Department of Astronomy</p>
+      <p>University of Arizona</p>
+      <p><a href="https://www.linkedin.com/in/deekshitha-alladi/">Deekshitha's Website</a></p>
   - align: left
-    image: prof_pic.jpg
+    image: tulsi.jpg
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Department of Physics</p>
+      <p>University of Arizona</p>
+      <p><a href="https://tap.arizona.edu/person/tulsi-narayanan">Tulsi's website</a></p>
 ---
